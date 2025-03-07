@@ -1,43 +1,40 @@
 
-"""
+
 print('-'*60)
 print(f'{'BIRTHDAY_APP':^60}')
 print('-'*60)
 
-# from datetime import datetime,timedelta
-from dateutil.relativedelta import relativedelta
+from datetime import datetime
 
-current_date = datetime.now()
-year = current_date.year
-month = current_date.month
-day = current_date.day
-print(year)
-print(month)
-print(day)
-print(current_date)
+def user_birthday():
+    year = int(input('What year were you born [YYYY]? '))
+    month = int(input('What month were you born [MM]? '))
+    day = int(input('What day were you born [DD]? '))
+    return month, day  # No need to return year
 
-birth_date = datetime(year=1998,month=7,day=30)
-birth_year=birth_date.year
-birth_month= birth_date.month
-birth_day = birth_date.day
-print(birth_date)
-"""
+def time_to_birthday(birth_month, birth_day):
+    today = datetime.today()
+    current_year = today.year
 
-"""
+    try:
+        next_birthday = datetime(current_year, birth_month, birth_day)
+    except ValueError:  # Handles Feb 29 in non-leap years
+        next_birthday = datetime(current_year + 1, birth_month, birth_day)
 
+    if next_birthday < today:
+        next_birthday = datetime(current_year + 1, birth_month, birth_day)
 
+    days_remaining = (next_birthday - today).days
 
+    months_remaining = days_remaining // 30
+    extra_days = days_remaining % 30
 
-""
-print('What year were you born [YYYY]? ')
-year= int(input())
-print('What month were you born [MM]? ')
-month = int(input())
-print('What day were you born [DD]? ')
-day = int(input())
+    print(f"Your next birthday is in {months_remaining} months and {extra_days} days.")
 
+# Run: 
+def main():
+    birth_month, birth_day = user_birthday()
+    time_to_birthday(birth_month, birth_day)
 
-print(f'It looks like you were born on {day}/{month}/{year}')
-print(f"Looks like your birthday is in {diff.days} days")
-"""
-# i need to parse current_date to only months and days and subtract from my birt date .
+if __name__ == "__main__":
+    main()
