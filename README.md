@@ -7,39 +7,39 @@ This repository contains all the "handout" materials for  [Python Jumpstart by B
 The 10 apps
 ===================
 
-What applications will we build?
+What applications I will build?
 
-We will build the following apps, which among many other things, focus on the language concepts listed under them.
+I will build the following apps, which among many other things, focus on the language concepts listed under them.
 
-1. [**Hello world**](https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/01_hello_world/you_try)
+1. [**Hello world**]
     * test your environment 
-2. [**Guess that number**](https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/02-guess-number-app) 
+2. [**Guess that number**]
     * user input
     * conditionals
     * string parsing 
-3. [**Birthday app**](https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/03_birthday/you_try)
+3. [**Birthday app**]
     * dates and times
-4. [**Personal journal**](https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/04_journal/you_try)
+4. [**Personal journal**]
     * text-based file i/o 
-5. [**Weather client**](https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/05_weather_client/you_try)
+5. [**Weather client**]
     * external packages
     * pip
     * screen scraping
     * HTTP clients 
-6. [**LOL Cats Factory**](https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/06_lolcat_factory/you_try)
+6. [**LOL Cats Factory**]
     * binary files on the internet 
-7. [**Wizard battle**](https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/07_wizard_battle/you_try)
+7. [**Wizard battle**]
     * classes
     * inheritance
     * magic methods 
-8. [**File searcher**](https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/08_file_searcher/you_try)
+8. [**File searcher**]
     * navigating the file system
     * generator methods
-9. [**Real estate analyzer**](https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/09_real_estate_analyzer/you_try)
+9. [**Real estate analyzer**]
     * file formats
     * list comprehensions
     * generators expressions 
-10. [**Movie lookup app**](https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/10_movie_search/you_try)
+10. [**Movie lookup app**]
     * error handling
     * exceptions
     * Advanced HTTP clients
