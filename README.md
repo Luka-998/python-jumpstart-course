@@ -2,7 +2,7 @@
 
 This repository contains all the "handout" materials for  [Python Jumpstart by Building 10 Apps course](https://training.talkpython.fm/courses/details/python-language-jumpstart-building-10-apps). 
 
-[![Learn more about Python Jumpstart by Building 10 Apps Course](readme_resources/video_play.png)](https://training.talkpython.fm/courses/details/python-language-jumpstart-building-10-apps)
+[Learn more about Python Jumpstart by Building 10 Apps Course](readme_resources/video_play.png)](https://training.talkpython.fm/courses/details/python-language-jumpstart-building-10-apps)
 
 The 10 apps
 ===================
