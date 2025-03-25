@@ -27,7 +27,9 @@ I will build the following apps, which among many other things, focus on the lan
     * screen scraping
     * HTTP clients 
 6. [**LOL Cats Factory**]
-    * binary files on the internet 
+    * binary files
+    * downloading images to designated folder
+    * deep understanding of mkdir() and makedirs() + subprocess() + shutil() + request
 7. [**Wizard battle**]
     * classes
     * inheritance
