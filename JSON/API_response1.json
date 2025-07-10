@@ -1,0 +1,13 @@
+{
+  "location": {
+    "city": "Belgrade",
+    "country": "Serbia"
+  },
+  "current": {
+    "temp_c": 23.4,
+    "feels_like_c": 22.1,
+    "condition": {
+      "text": "Partly cloudy"
+    }
+  }
+}

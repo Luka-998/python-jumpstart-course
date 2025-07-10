@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex",
+      "profile": {
+        "email": "alex@mail.com",
+        "active": true
+      }
+    }
+  ]
+}

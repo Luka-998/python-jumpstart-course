@@ -1,0 +1,8 @@
+{
+  "data": {
+    "categories": [
+      {"name": "A", "items": ["x", "y", "z"]},
+      {"name": "B", "items": ["x", "x","x","x", "z"]}
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 101,
+      "name": "Wireless Mouse",
+      "category": "electronics",
+      "price": 19.99,
+      "rating": 4.5,
+      "in_stock": true
+    },
+    {
+      "id": 102,
+      "name": "Bluetooth Speaker",
+      "category": "electronics",
+      "price": 29.99,
+      "rating": 4.2,
+      "in_stock": false
+    },
+    {
+      "id": 103,
+      "name": "Coffee Mug",
+      "category": "kitchen",
+      "price": 7.5,
+      "rating": 4.8,
+      "in_stock": true
+    },
+    {
+      "id": 104,
+      "name": "Notebook",
+      "category": "stationery",
+      "price": 2.99,
+      "rating": 3.9,
+      "in_stock": true
+    },
+    {
+      "id": 105,
+      "name": "Gaming Keyboard",
+      "category": "electronics",
+      "price": 45.0,
+      "rating": 4.7,
+      "in_stock": true
+    }
+  ]
+}

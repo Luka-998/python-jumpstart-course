@@ -1,0 +1,13 @@
+{
+  "location": {
+    "name": "Belgrade",
+    "region": "Central Serbia",
+    "country": "Serbia"
+  },
+  "current": {
+    "temp_c": 23.5,
+    "condition": {
+      "text": "Partly cloudy"
+    }
+  }
+}
